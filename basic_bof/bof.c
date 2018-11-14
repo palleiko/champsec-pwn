@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> 
 
 int main(int argc, char** argv[]) {
 	int win = 0;
@@ -10,7 +10,7 @@ int main(int argc, char** argv[]) {
 	}
 
 	strcpy(buf, argv[1]);
-	
+
 	printf("You entered '%s'\n", buf);
 	if (win) {
 		printf("You Win!\n");
